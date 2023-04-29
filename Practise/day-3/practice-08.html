@@ -34,6 +34,16 @@
         border-radius: 50%;
         margin-right: 20px;
       }
+      .navbar
+        .container-fluid
+        .navbar-collapse
+        .navbar-nav
+        .nav-item:last-child
+        .nav-link {
+        background-color: #7e57c2;
+        width: 58px;
+        height: 58px;
+      }
     </style>
   </head>
   <body>
@@ -54,31 +64,38 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0 align-items-lg-center">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  ><i class="fa-regular fa-eye-slash text-light"></i
+                <a class="nav-link active d-flex" aria-current="page" href="#"
+                  ><i
+                    class="fs-5 m-auto p-0 fa-regular fa-eye-slash text-light"
+                  ></i
                 ></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  ><i class="fa-regular fa-bell text-light"></i
+                <a class="nav-link active d-flex" aria-current="page" href="#"
+                  ><i class="fs-5 m-auto p-0 fa-regular fa-bell text-light"></i
                 ></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  ><i class="fa-regular fa-comments text-light"></i
+                <a class="nav-link active d-flex" aria-current="page" href="#"
+                  ><i
+                    class="fs-5 m-auto p-0 fa-regular fa-comments text-light"
+                  ></i
                 ></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  ><i class="bi bi-gear text-light"></i
+                <a class="nav-link active d-flex" aria-current="page" href="#"
+                  ><i class="fs-5 m-auto p-0 bi bi-gear text-light"></i
                 ></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  ><i class="fa-solid fa-s text-light"></i
+                <a class="nav-link active d-flex" aria-current="page" href="#"
+                  ><i class="fs-5 m-auto p-0 fa-solid fa-s text-light"></i
                 ></a>
               </li>
             </ul>
